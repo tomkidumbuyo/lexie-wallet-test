@@ -5,6 +5,10 @@ class Coin {
   constructor(value: number) {
     this.value = value;
   }
+
+  getValue() {
+    return this.value;
+  }
 }
 
 export default Coin;
